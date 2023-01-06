@@ -1,12 +1,12 @@
 import { useState } from "react";
 export default function Child(props) {
   const [data, sendData] = useState("hii");
-  function sendData() {
+  function dataReceive() {
     props.cb(data);
   }
   return (
     <>
-      <button onClick={sendData}>click</button>
+      <button onClick={dataReceive}>click</button>
     </>
   );
 }
