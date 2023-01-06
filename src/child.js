@@ -1,5 +1,5 @@
 import { useState } from "react";
-export default function Child(props) {
+export function Child(props) {
   const [data, sendData] = useState("hii");
   function dataReceive() {
     props.cb(data);

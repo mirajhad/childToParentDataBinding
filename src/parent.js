@@ -1,5 +1,5 @@
 import { Child } from "./child";
-export default function Parent() {
+export function Parent() {
   function handleData(data) {
     console.log(data);
   }
