@@ -1,5 +1,5 @@
 import "./styles.css";
-import { Parent } from "./parent";
+import { Parent } from "./components/parent";
 export default function App() {
   return (
     <div className="App">
