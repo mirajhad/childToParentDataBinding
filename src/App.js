@@ -1,9 +1,9 @@
 import "./styles.css";
-import { Child } from "./components/child-component";
+import { Parent } from "./parent";
 export default function App() {
   return (
     <div className="App">
-      <Child />
+      <Parent />
     </div>
   );
 }
